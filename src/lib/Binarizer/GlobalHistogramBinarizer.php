@@ -15,11 +15,11 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Binarizer;
+namespace kmukku\QRReader\lib\Binarizer;
 
-use Dijkma\QRReader\lib\Bit\BitArray;
-use Dijkma\QRReader\lib\Bit\BitMatrix;
-use Dijkma\QRReader\exceptions\NotFoundException;
+use kmukku\QRReader\lib\Bit\BitArray;
+use kmukku\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\exceptions\NotFoundException;
 
 /**
  * This Binarizer implementation uses the old ZXing global histogram approach. It is suitable
@@ -47,7 +47,7 @@ class GlobalHistogramBinarizer extends Binarizer {
 
     /**
      * GlobalHistogramBinarizer constructor.
-     * @param $source \Dijkma\QRReader\lib\Luminance\IMagickLuminanceSource
+     * @param $source \kmukku\QRReader\lib\Luminance\IMagickLuminanceSource
      */
     public function __construct($source) {
 

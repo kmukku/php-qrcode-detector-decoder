@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
 use Exception;
-use Dijkma\QRReader\lib\Bit\BitMatrix;
-use Dijkma\QRReader\lib\Bit\BitMatrixParser;
-use Dijkma\QRReader\lib\Common\DecoderResult;
-use Dijkma\QRReader\exceptions\DecodeHintType;
-use Dijkma\QRReader\exceptions\FormatException;
-use Dijkma\QRReader\exceptions\ChecksumException;
-use Dijkma\QRReader\Exceptions\ReedSolomonException;
-use Dijkma\QRReader\lib\Reedsolomon\GenericGF;
-use Dijkma\QRReader\lib\Reedsolomon\ReedSolomonDecoder;
+use kmukku\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\lib\Bit\BitMatrixParser;
+use kmukku\QRReader\lib\Common\DecoderResult;
+use kmukku\QRReader\exceptions\DecodeHintType;
+use kmukku\QRReader\exceptions\FormatException;
+use kmukku\QRReader\exceptions\ChecksumException;
+use kmukku\QRReader\Exceptions\ReedSolomonException;
+use kmukku\QRReader\lib\Reedsolomon\GenericGF;
+use kmukku\QRReader\lib\Reedsolomon\ReedSolomonDecoder;
 
 /**
  * <p>The main class which implements QR Code decoding -- as opposed to locating and extracting

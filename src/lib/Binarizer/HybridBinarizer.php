@@ -15,9 +15,9 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Binarizer;
+namespace kmukku\QRReader\lib\Binarizer;
 
-use Dijkma\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\lib\Bit\BitMatrix;
 
 /**
  * This class implements a local thresholding algorithm, which while slower than the
@@ -50,7 +50,7 @@ final class HybridBinarizer extends GlobalHistogramBinarizer{
 
     /**
      * HybridBinarizer constructor.
-     * @param $source \Dijkma\QRReader\lib\Luminance\IMagickLuminanceSource
+     * @param $source \kmukku\QRReader\lib\Luminance\IMagickLuminanceSource
      */
     public function __construct($source) {
 
@@ -175,7 +175,7 @@ final class HybridBinarizer extends GlobalHistogramBinarizer{
      * @param $yoffset
      * @param $threshold
      * @param $stride
-     * @param $matrix \Dijkma\QRReader\lib\Bit\BitMatrix
+     * @param $matrix \kmukku\QRReader\lib\Bit\BitMatrix
      */
     private static function thresholdBlock($luminances, $xoffset, $yoffset, $threshold, $stride, $matrix){
         for ($y = 0, $offset = $yoffset * $stride + $xoffset; $y < self::$BLOCK_SIZE; $y++, $offset += $stride) {

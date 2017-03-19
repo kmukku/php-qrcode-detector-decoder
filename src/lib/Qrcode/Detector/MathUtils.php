@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Qrcode\Detector;
+namespace kmukku\QRReader\lib\Qrcode\Detector;
 
 class MathUtils {
 

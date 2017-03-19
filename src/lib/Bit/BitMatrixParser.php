@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Bit;
+namespace kmukku\QRReader\lib\Bit;
 
-use Dijkma\QRReader\Exceptions\FormatException;
-use Dijkma\QRReader\lib\Qrcode\Decoder\Version;
-use Dijkma\QRReader\lib\Qrcode\Decoder\DataMask;
-use Dijkma\QRReader\lib\Qrcode\Decoder\FormatInformation;
+use kmukku\QRReader\Exceptions\FormatException;
+use kmukku\QRReader\lib\Qrcode\Decoder\Version;
+use kmukku\QRReader\lib\Qrcode\Decoder\DataMask;
+use kmukku\QRReader\lib\Qrcode\Decoder\FormatInformation;
 
 /**
  * @author Sean Owen

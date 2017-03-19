@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
 /**
  * <p>Encapsulates the result of decoding a matrix of bits. This typically

@@ -15,10 +15,10 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Common;
+namespace kmukku\QRReader\lib\Common;
 
-use Dijkma\QRReader\lib\Bit\BitMatrix;
-use Dijkma\QRReader\Exceptions\NotFoundException;
+use kmukku\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\Exceptions\NotFoundException;
 
 /**
  * @author Sean Owen

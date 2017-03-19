@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Detector;
+namespace kmukku\QRReader\lib\Qrcode\Detector;
 
-use  Dijkma\QRReader\lib\ResultPoint;
+use  kmukku\QRReader\lib\ResultPoint;
 
 /**
  * <p>Encapsulates a finder pattern, which are the three square patterns found in

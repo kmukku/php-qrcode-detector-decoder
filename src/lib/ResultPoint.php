@@ -15,9 +15,9 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib;
+namespace kmukku\QRReader\lib;
 
-use Dijkma\QRReader\lib\Qrcode\Detector\MathUtils;
+use kmukku\QRReader\lib\Qrcode\Detector\MathUtils;
 
 /**
  * <p>Encapsulates a point of interest in an image containing a barcode. Typically, this

@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
-use Dijkma\QRReader\lib\Bit\BitSource;
-use Dijkma\QRReader\lib\Common\CharacterSetECI;
-use Dijkma\QRReader\exceptions\FormatException;
+use kmukku\QRReader\lib\Bit\BitSource;
+use kmukku\QRReader\lib\Common\CharacterSetECI;
+use kmukku\QRReader\exceptions\FormatException;
 
 /**
  * <p>QR Codes can encode text as bits in one of several modes, and can use multiple modes

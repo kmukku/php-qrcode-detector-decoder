@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Common;
+namespace kmukku\QRReader\lib\Common;
 
 /**
  * <p>This class implements a perspective transform in two dimensions. Given four source and four

@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Reedsolomon;
+namespace kmukku\QRReader\lib\Reedsolomon;
 
-use Dijkma\QRReader\Exceptions\ReedSolomonException;
+use kmukku\QRReader\Exceptions\ReedSolomonException;
 
 /**
  * <p>Implements Reed-Solomon decoding, as the name implies.</p>

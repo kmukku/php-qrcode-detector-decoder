@@ -1,6 +1,6 @@
 <?php
 
-namespace Dijkma\QRReader\lib;
+namespace kmukku\QRReader\lib;
 
 interface Reader {
     public function decode($image);

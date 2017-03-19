@@ -15,25 +15,25 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode;
+namespace kmukku\QRReader\lib\Qrcode;
 
-use Dijkma\QRReader\lib\Reader;
-use Dijkma\QRReader\lib\Result;
+use kmukku\QRReader\lib\Reader;
+use kmukku\QRReader\lib\Result;
 
-use Dijkma\QRReader\lib\Bit\BitMatrix;
-use Dijkma\QRReader\exceptions\FormatException;
-use Dijkma\QRReader\exceptions\ChecksumException;
-use Dijkma\QRReader\exceptions\NotFoundException;
+use kmukku\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\exceptions\FormatException;
+use kmukku\QRReader\exceptions\ChecksumException;
+use kmukku\QRReader\exceptions\NotFoundException;
 
-use Dijkma\QRReader\lib\DecodeHintType;
-use Dijkma\QRReader\lib\ResultMetadataType;
-use Dijkma\QRReader\lib\ResultPoint;
+use kmukku\QRReader\lib\DecodeHintType;
+use kmukku\QRReader\lib\ResultMetadataType;
+use kmukku\QRReader\lib\ResultPoint;
 
-use Dijkma\QRReader\lib\Common\DecoderResult;
-use Dijkma\QRReader\lib\Common\DetectorResult;
-use Dijkma\QRReader\lib\Qrcode\Decoder\Decoder;
-use Dijkma\QRReader\lib\Qrcode\Decoder\QRCodeDecoderMetaData;
-use Dijkma\QRReader\lib\Qrcode\Detector\Detector;
+use kmukku\QRReader\lib\Common\DecoderResult;
+use kmukku\QRReader\lib\Common\DetectorResult;
+use kmukku\QRReader\lib\Qrcode\Decoder\Decoder;
+use kmukku\QRReader\lib\Qrcode\Decoder\QRCodeDecoderMetaData;
+use kmukku\QRReader\lib\Qrcode\Detector\Detector;
 
 
 

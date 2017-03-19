@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Bit;
+namespace kmukku\QRReader\lib\Bit;
 
 /**
  * <p>This provides an easy abstraction to read bits at a time from a sequence of bytes, where the

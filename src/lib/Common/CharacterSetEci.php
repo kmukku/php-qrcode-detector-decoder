@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dijkma\QRReader\lib\Common;
+namespace kmukku\QRReader\lib\Common;
 
 /**
  * Encapsulates a Character Set ECI, according to "Extended Channel

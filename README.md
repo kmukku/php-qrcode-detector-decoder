@@ -2,17 +2,18 @@
 This is a PHP library to detect and decode QR-codes.<br />This is first and only QR code reader that works without extensions.<br />
 Ported from [ZXing library](https://github.com/zxing/zxing)
 
+This is a fork from JelleDijkhuizen/php-qrcode-detector-decoder. I'm just trying to get it to work with composer/packagist properly.
 
 ## Usage 
 ```php
-composer require dijkma/qrcodedecoder
+composer require kmukku/qrcodedecoder
 ```
 
 To use the class include the autoload file and use the class:
 ````php
 require_once __DIR__.'/vendor/autoload.php';
 
-use Dijkma\QRReader\QrReader
+use kmukku\QRReader\QrReader
 ````
 
 After that you can use the class like this:

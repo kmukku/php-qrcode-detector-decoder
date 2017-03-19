@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Detector;
+namespace kmukku\QRReader\lib\Qrcode\Detector;
 
 /**
  * <p>Encapsulates information about finder patterns in an image, including the location of

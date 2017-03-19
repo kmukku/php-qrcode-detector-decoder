@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\Exceptions;
+namespace kmukku\QRReader\Exceptions;
 
 /**
  * Thrown when a barcode was not found in the image. It might have been

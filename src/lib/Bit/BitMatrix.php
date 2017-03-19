@@ -1,7 +1,7 @@
 <?php
-namespace Dijkma\QRReader\lib\Bit;
+namespace kmukku\QRReader\lib\Bit;
 
-use Dijkma\QRReader\lib\Common\Common;
+use kmukku\QRReader\lib\Common\Common;
 
 class BitMatrix {
 

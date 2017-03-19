@@ -15,10 +15,10 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib;
+namespace kmukku\QRReader\lib;
 
 use InvalidArgumentException;
-use Dijkma\QRReader\Exceptions\NotFoundException;
+use kmukku\QRReader\Exceptions\NotFoundException;
 
 /**
  * This class is the core bitmap class used by ZXing to represent 1 bit data. Reader objects
@@ -33,7 +33,7 @@ final class BinaryBitmap {
 
     /**
      * BinaryBitmap constructor.
-     * @param $binarizer \Dijkma\QRReader\lib\Binarizer\HybridBinarizer
+     * @param $binarizer \kmukku\QRReader\lib\Binarizer\HybridBinarizer
      * @throws InvalidArgumentException
      */
     public function __construct($binarizer) {
@@ -78,7 +78,7 @@ final class BinaryBitmap {
      * may not apply sharpening. Therefore, a row from this matrix may not be identical to one
      * fetched using getBlackRow(), so don't mix and match between them.
      *
-     * @return \Dijkma\QRReader\lib\Bit\BitMatrix array The 2D array of bits for the image (true means black).
+     * @return \kmukku\QRReader\lib\Bit\BitMatrix array The 2D array of bits for the image (true means black).
      * @throws NotFoundException if image can't be binarized to make a matrix
      */
     public function getBlackMatrix(){

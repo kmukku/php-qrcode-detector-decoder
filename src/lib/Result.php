@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib;
+namespace kmukku\QRReader\lib;
 
-use Dijkma\QRReader\lib\Common\Common;
+use kmukku\QRReader\lib\Common\Common;
 
 /**
  * <p>Encapsulates the result of decoding a barcode within an image.</p>

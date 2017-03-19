@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Reedsolomon;
+namespace kmukku\QRReader\lib\Reedsolomon;
 
 /**
  * <p>This class contains utility methods for performing mathematical operations over

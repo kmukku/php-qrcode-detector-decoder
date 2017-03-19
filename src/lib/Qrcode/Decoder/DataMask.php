@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
-use Dijkma\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\lib\Bit\BitMatrix;
 
 /**
  * <p>Encapsulates data masks for the data bits in a QR code, per ISO 18004:2006 6.8. Implementations

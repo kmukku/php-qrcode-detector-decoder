@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
 /**
  * <p>Encapsulates a block of data within a QR Code. QR Codes may split their data into

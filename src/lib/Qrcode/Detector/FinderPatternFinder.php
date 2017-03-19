@@ -15,12 +15,12 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Qrcode\Detector;
+namespace kmukku\QRReader\lib\Qrcode\Detector;
 
 use Zxing\DecodeHintType;
-use Dijkma\QRReader\lib\ResultPoint;
-use Dijkma\QRReader\lib\ResultPointCallback;
-use Dijkma\QRReader\Exceptions\NotFoundException;
+use kmukku\QRReader\lib\ResultPoint;
+use kmukku\QRReader\lib\ResultPointCallback;
+use kmukku\QRReader\Exceptions\NotFoundException;
 
 
 

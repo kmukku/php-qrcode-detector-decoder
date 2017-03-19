@@ -5,7 +5,7 @@
  * Date: 2-1-2017
  * Time: 11:16
  */
-namespace  Dijkma\QRReader\lib\Common;
+namespace  kmukku\QRReader\lib\Common;
 
 
 class Common{

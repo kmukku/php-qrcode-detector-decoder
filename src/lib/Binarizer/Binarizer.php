@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Binarizer;
+namespace kmukku\QRReader\lib\Binarizer;
 
 /**
  * This class hierarchy provides a set of methods to convert luminance data to 1 bit data.
@@ -31,7 +31,7 @@ abstract class Binarizer {
 
     /**
      * Binarizer constructor.
-     * @param $source \Dijkma\QRReader\lib\Luminance\IMagickLuminanceSource
+     * @param $source \kmukku\QRReader\lib\Luminance\IMagickLuminanceSource
      */
     protected function __construct($source) {
         $this->source = $source;
@@ -53,7 +53,7 @@ abstract class Binarizer {
      * @param $row. An optional preallocated array. If null or too small, it will be ignored.
      *            If used, the Binarizer will call BitArray.clear(). Always use the returned object.
      * @return array. The array of bits for this row (true means black).
-     * @throws \Dijkma\QRReader\Exceptions\NotFoundException if row can't be binarized
+     * @throws \kmukku\QRReader\Exceptions\NotFoundException if row can't be binarized
      */
     public abstract function getBlackRow($y, $row);
 
@@ -64,7 +64,7 @@ abstract class Binarizer {
      * fetched using getBlackRow(), so don't mix and match between them.
      *
      * @return array. The 2D array of bits for the image (true means black).
-     * @throws \Dijkma\QRReader\Exceptions\NotFoundException if image can't be binarized to make a matrix
+     * @throws \kmukku\QRReader\Exceptions\NotFoundException if image can't be binarized to make a matrix
      */
     public abstract function getBlackMatrix();
 

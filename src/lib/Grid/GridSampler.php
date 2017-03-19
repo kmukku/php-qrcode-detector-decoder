@@ -15,9 +15,9 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Common;
+namespace kmukku\QRReader\lib\Common;
 
-use Dijkma\QRReader\Exceptions\NotFoundException;
+use kmukku\QRReader\Exceptions\NotFoundException;
 
 /**
  * Implementations of this class can, given locations of finder patterns for a QR code in an

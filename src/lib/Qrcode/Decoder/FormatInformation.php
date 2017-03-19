@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
-use Dijkma\QRReader\lib\Common\Common;
+use kmukku\QRReader\lib\Common\Common;
 
 /**
  * <p>Encapsulates a QR Code's format information, including the data mask used and

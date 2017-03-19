@@ -15,12 +15,12 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Qrcode\Decoder;
+namespace kmukku\QRReader\lib\Qrcode\Decoder;
 
-use Dijkma\QRReader\lib\EC\ECB;
-use Dijkma\QRReader\lib\EC\ECBlocks;
-use Dijkma\QRReader\lib\Bit\BitMatrix;
-use Dijkma\QRReader\exceptions\FormatException;
+use kmukku\QRReader\lib\EC\ECB;
+use kmukku\QRReader\lib\EC\ECBlocks;
+use kmukku\QRReader\lib\Bit\BitMatrix;
+use kmukku\QRReader\exceptions\FormatException;
 
 /**
  * See ISO 18004:2006 Annex D

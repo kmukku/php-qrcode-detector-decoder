@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Luminance;
+namespace kmukku\QRReader\lib\Luminance;
 
 use Exception;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Dijkma\QRReader;
+namespace kmukku\QRReader;
 
-use Dijkma\QRReader\lib\Luminance\GDLuminanceSource;
+use kmukku\QRReader\lib\Luminance\GDLuminanceSource;
 use \Imagick;
-use Dijkma\QRReader\lib\BinaryBitmap;
-use Dijkma\QRReader\lib\Binarizer\HybridBinarizer;
-use Dijkma\QRReader\lib\Luminance\IMagickLuminanceSource;
-use Dijkma\QRReader\lib\Qrcode\QRCodeReader;
+use kmukku\QRReader\lib\BinaryBitmap;
+use kmukku\QRReader\lib\Binarizer\HybridBinarizer;
+use kmukku\QRReader\lib\Luminance\IMagickLuminanceSource;
+use kmukku\QRReader\lib\Qrcode\QRCodeReader;
 
 class QrReader{
 

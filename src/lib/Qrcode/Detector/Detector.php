@@ -15,17 +15,17 @@
 * limitations under the License.
 */
 
-namespace Dijkma\QRReader\lib\Qrcode\Detector;
+namespace kmukku\QRReader\lib\Qrcode\Detector;
 
-use Dijkma\QRReader\lib\DecodeHintType;
-use Dijkma\QRReader\exceptions\FormatException;
-use Dijkma\QRReader\exceptions\NotFoundException;
-use Dijkma\QRReader\lib\ResultPoint;
-use Dijkma\QRReader\lib\ResultPointCallback;
-use Dijkma\QRReader\lib\Common\BitMatrix;
-use Dijkma\QRReader\lib\Common\GridSampler;
-use Dijkma\QRReader\lib\Common\PerspectiveTransform;
-use Dijkma\QRReader\lib\Qrcode\Decoder\Version;
+use kmukku\QRReader\lib\DecodeHintType;
+use kmukku\QRReader\exceptions\FormatException;
+use kmukku\QRReader\exceptions\NotFoundException;
+use kmukku\QRReader\lib\ResultPoint;
+use kmukku\QRReader\lib\ResultPointCallback;
+use kmukku\QRReader\lib\Common\BitMatrix;
+use kmukku\QRReader\lib\Common\GridSampler;
+use kmukku\QRReader\lib\Common\PerspectiveTransform;
+use kmukku\QRReader\lib\Qrcode\Decoder\Version;
 
 
 /**

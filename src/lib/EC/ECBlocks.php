@@ -6,7 +6,7 @@
  * Time: 12:14
  */
 
-namespace Dijkma\QRReader\lib\EC;
+namespace kmukku\QRReader\lib\EC;
 
 /**
  * <p>Encapsulates a set of error-correction blocks in one symbol version. Most versions will

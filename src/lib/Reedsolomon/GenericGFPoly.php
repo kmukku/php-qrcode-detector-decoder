@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Reedsolomon;
+namespace kmukku\QRReader\lib\Reedsolomon;
 
 /**
  * <p>Represents a polynomial whose coefficients are elements of a GF.

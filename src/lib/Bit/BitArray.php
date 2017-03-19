@@ -20,10 +20,10 @@
  * limitations under the License.
  */
 
-namespace Dijkma\QRReader\lib\Bit;
+namespace kmukku\QRReader\lib\Bit;
 
 use InvalidArgumentException;
-use Dijkma\QRReader\lib\Common\Common;
+use kmukku\QRReader\lib\Common\Common;
 
 /**
  * <p>A simple, fast array of bits, represented compactly by an array of ints internally.</p>

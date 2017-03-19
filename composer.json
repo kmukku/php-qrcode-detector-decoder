@@ -1,5 +1,5 @@
 {
-  "name": "dijkma/qrcodedecoder",
+  "name": "kmukku/qrcodedecoder",
   "description": "",
   "keywords": ["qrcode", "qr", "code", "reader"],
   "homepage": "https://github.com/khanamiryan/php-qrcode-detector-decoder",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Dijkma\\QRReader\\": "/src"
+      "kmukku\\QRReader\\": "/src"
     }
   }
 }
